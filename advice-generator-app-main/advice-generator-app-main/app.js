@@ -10,7 +10,7 @@ function loadAdvice() {
                 //console.log(adviceData) 
                 output = `
                 <div id="header">advice #${adviceData.id}</div>
-                <div id="content">
+                <div>
                 <p><span>"</span> ${adviceData.advice} <span>"</span></p>
                 </div>
                 `;
