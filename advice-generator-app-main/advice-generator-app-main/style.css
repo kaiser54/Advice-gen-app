@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: hsl(218, 23%, 16%);
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: hsl(217, 19%, 24%)
+}
+
+.card img {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    bottom: -1.2rem;
+}
+
+#header {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+    color: rgba(82,255,169,1);
+}
+
+#dice {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    bottom: -3rem;
+    background: hsl(150, 100%, 66%);
+    box-shadow: 0px 0px 38px 0px rgba(82,255,169,1);
+}
+
+.attribution { 
+    position: absolute;
+    bottom: 2rem;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+span {
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 390px){
+    .container {
+        max-width: 290px;
+    }
+
+    .card img {
+        max-width: 290px;
+    }
+
+    .attribution {
+        bottom: 0px;
+    }
+}
